@@ -1,2 +1,2 @@
-# Oops
-Error collection 😡
+# Oops 😡
+내가 겪은 에러를 수집하는 공간.
