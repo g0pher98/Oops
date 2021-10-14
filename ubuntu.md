@@ -26,3 +26,13 @@ sudo rm /var/lib/dpkg/lock*
 sudo dpkg --configure -a
 sudo apt update
 ```
+
+# #3
+```
+After this operation, 79.7 MB of additional disk space will be used.
+E: You don't have enough free space in /var/cache/apt/archives/.
+```
+갑자기 용량이 부족하다고 오류가 떠서 apt install을 할 수 없었다. 아카이브를 다음 명령으로 비워주면 된다.
+```bash
+$ sudo apt clean
+```
